@@ -1,0 +1,61 @@
+Script started on Wed 06 Sep 2017 02:43:13 AM UTC
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question6rziserman@instance-1:~/OOP_3150/Homework_1/question6$ java CircleContainmentTest.txx[K[K[K[K
+Please enter the radius of the first circle
+2
+Please enter the x coordinate of the first center
+4
+Please enter the y coordinate of the first center
+5
+Please enter the radius of the second circle
+1
+Please enter the x coordinate of the second center
+0
+Please enter the y coordinate of the second center
+1
+The circles don't intersect
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question6rziserman@instance-1:~/OOP_3150/Homework_1/question6$ java CircleContainmentTest
+Please enter the radius of the first circle
+3
+Please enter the x coordinate of the first center
+3
+Please enter the y coordinate of the first center
+2
+Please enter the radius of the second circle
+1
+Please enter the x coordinate of the second center
+3
+Please enter the y coordinate of the second center
+6
+The circles touch
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question6rziserman@instance-1:~/OOP_3150/Homework_1/question6$ java CircleContainmentTest
+Please enter the radius of the first circle
+4
+Please enter the x coordinate of the first center
+2
+Please enter the y coordinate of the first center
+1
+Please enter the radius of the second circle
+1
+Please enter the x coordinate of the second center
+6
+Please enter the y coordinate of the second center
+2
+The circles partially overlap
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question6rziserman@instance-1:~/OOP_3150/Homework_1/question6$ java CircleContainmentTest
+Please enter the radius of the first circle
+1
+Please enter the x coordinate of the first center
+2
+Please enter the y coordinate of the first center
+3
+Please enter the radius of the second circle
+2
+Please enter the x coordinate of the second center
+2
+Please enter the y coordinate of the second center
+3
+One circle contains the other
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question6rziserman@instance-1:~/OOP_3150/Homework_1/question6$ exit
+exit
+
+Script done on Wed 06 Sep 2017 02:45:19 AM UTC

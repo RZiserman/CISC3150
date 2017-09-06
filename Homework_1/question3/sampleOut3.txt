@@ -1,0 +1,15 @@
+Script started on Wed 06 Sep 2017 02:24:57 AM UTC
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question3rziserman@instance-1:~/OOP_3150/Homework_1/question3$ java MonthNameTest
+September
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question3rziserman@instance-1:~/OOP_3150/Homework_1/question3$ java MonthNameTest
+August
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question3rziserman@instance-1:~/OOP_3150/Homework_1/question3$ java MonthNameTest
+June
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question3rziserman@instance-1:~/OOP_3150/Homework_1/question3$ java MonthNameTest
+September
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question3rziserman@instance-1:~/OOP_3150/Homework_1/question3$ java MonthNameTest
+February
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question3rziserman@instance-1:~/OOP_3150/Homework_1/question3$ exit
+exit
+
+Script done on Wed 06 Sep 2017 02:25:15 AM UTC

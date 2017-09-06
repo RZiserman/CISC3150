@@ -1,0 +1,18 @@
+Script started on Wed 06 Sep 2017 02:22:56 AM UTC
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question2rziserman@instance-1:~/OOP_3150/Homework_1/question2$ java ReadRai[Kdii
+Enter a radius: 
+5
+The area is 78.53981633974483
+6
+Enter a radius: 
+The area is 113.09733552923255
+7
+Enter a radius: 
+The area is 153.93804002589985
+10
+Enter a radius: 
+The area is 314.1592653589793
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question2rziserman@instance-1:~/OOP_3150/Homework_1/question2$ exit
+exit
+
+Script done on Wed 06 Sep 2017 02:23:21 AM UTC

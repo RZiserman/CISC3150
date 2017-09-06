@@ -1,0 +1,25 @@
+Script started on Wed 06 Sep 2017 02:27:41 AM UTC
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question5rziserman@instance-1:~/OOP_3150/Homework_1/question5$ java RealTrainal[K[K[K[K[KiangleTest
+Give your triangle a name:
+Barry
+Enter point A
+3
+Enter point B
+4
+Enter point C
+5
+Barry is a triangle!
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question5rziserman@instance-1:~/OOP_3150/Homework_1/question5$ java RealTriangleTest
+Give your triangle a name:
+Gilly
+Enter point A
+1
+Enter point B
+1
+3
+Enter point C
+Gilly is not a triangle
+]0;rziserman@instance-1: ~/OOP_3150/Homework_1/question5rziserman@instance-1:~/OOP_3150/Homework_1/question5$ exit
+exit
+
+Script done on Wed 06 Sep 2017 02:28:19 AM UTC
