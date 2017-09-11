@@ -1,0 +1,6 @@
+Stormtrooper is not a palindrome!
+kayak is a palindrome!
+Please enter your string
+madamimadam is a palindrome!
+Please enter your string
+Object is not a palindrome!
