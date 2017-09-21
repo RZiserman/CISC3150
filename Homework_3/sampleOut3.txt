@@ -1,0 +1,28 @@
+1. constructor test: 
+[a, B, c, D, e, F, g, h]
+2. substring() method test: 
+[D, e, F]
+3. lowerCase() method test: 
+[a, b, c, d, e, f, g, h]
+4. upperCase() method test: 
+[A, B, C, D, E, F, G, H]
+5. equals() method test 1: 
+true
+6. equals() method test 2: 
+false
+7. valueOf(int) method test: 
+[5, 8, 2, 1, 2, 9, 6, 4]
+8. toString() method test: 
+aBcDeFgh
+9. getString() method test: 
+[a, B, c, D, e, F, g, h]
+10. charAt() and length() method test: 
+Character at index 0 is: a
+Character at index 1 is: B
+Character at index 2 is: c
+Character at index 3 is: D
+Character at index 4 is: e
+Character at index 5 is: F
+Character at index 6 is: g
+Character at index 7 is: h
+Tests complete.
