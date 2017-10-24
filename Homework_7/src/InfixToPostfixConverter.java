@@ -41,6 +41,10 @@ public class InfixToPostfixConverter {
             if(stringScanner.hasNextInt() || stringScanner.hasNextDouble()){
                 this.postfixExpr = this.postfixExpr + stringScanner.next() + " ";
                 cumulativeRank = cumulativeRank + 1;
+
+                if (cumulativeRank > 1){
+                    throw new TooManyOperandsException(); //too many operands
+                }
             } else {
                 try{
                     //scanner returns a string, but isOperator scans single characters
@@ -49,8 +53,6 @@ public class InfixToPostfixConverter {
 
                     if(cumulativeRank < 0){
                         throw new UserIsADumbassException(); //too many operators
-                    } else if (cumulativeRank > 1){
-                        throw new TooManyOperandsException(); //too many operands
                     }
 
                     //Operator will throw an exception if not an operator
@@ -58,6 +60,7 @@ public class InfixToPostfixConverter {
                 }
                 catch (IllegalOperationException e) {
                     System.out.println("No illegal operations allowed!");
+                    System.exit(1);
                 }
             }
         }

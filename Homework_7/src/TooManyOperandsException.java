@@ -1,5 +1,5 @@
 public class TooManyOperandsException extends IllegalArgumentException{
     public TooManyOperandsException(){
-        System.out.println("Too many operands");
+        //Message of choice goes here
     }
 }
