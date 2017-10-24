@@ -1,0 +1,46 @@
+Enter your expression, separated by spaces: 
+3 + 2 - 1 x 6 - 2
+-3.0
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+3 + ( 2 - 1 ) x 6 - 2
+7.0
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+2 ^ 2 ^ 3
+256.0
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+5 x 6 / 2
+15.0
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+22.3 + 2 x 2
+26.3
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+23 - 1 % 2
+22.0
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+( 23 - 1 ) % 2
+0.0
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+a + b
+How can letters be numbers?
+Numerals only!
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+5 > 5
+No illegal operations allowed!
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+5 5 + 5
+Too many operands
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ java ConsoleCalculator
+Enter your expression, separated by spaces: 
+5 + + 5
+Too many operators
+The user is a dumbass.
+rziserman@instance-1:~/CISC3150-Homeworks/Homework_7/src$ 
