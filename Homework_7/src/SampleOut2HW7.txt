@@ -1,0 +1,11 @@
+After reading object one: staticInt contains:0
+readObjOne.nonStaticInt contains: 1
+readObjOne.transientInt contains: 0
+
+After reading object two: staticInt contains:0
+readObjTwo.nonStaticInt contains: 2
+readObjTwo.transientInt contains: 0
+
+After reading object three: staticInt contains:0
+readObjThree.nonStaticInt contains: 3
+readObjThree.transientInt contains: 0

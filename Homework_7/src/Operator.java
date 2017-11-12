@@ -68,7 +68,7 @@ public class Operator {
                     }
                     return opTwo / opOne;
                 case '%':
-                    return opOne % opTwo;
+                    return opTwo % opOne;
                 case '^':
                     return Math.pow(opTwo, opOne);
                 default:
