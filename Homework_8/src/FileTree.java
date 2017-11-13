@@ -14,7 +14,10 @@ public class FileTree {
      * @param path_names
      */
     public static void printTree(File[] path_names, int tabCount){
-        //inspect each path. Print each abstract pathname. If it's a directory, recurse.
+        //inspect each path. Print each abstract pathname. If it's a directory, call printTree on it.
+        if(path_names == null){
+            return;
+        }
         String indents = new String();
         for(int i= 0; i <= tabCount; i++){
             indents = indents + '\t';
