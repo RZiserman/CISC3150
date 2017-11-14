@@ -28,8 +28,8 @@ public class FileTree {
         
 				//We recurse for each directory.
 				for(File c : path_names){
-            System.out.println(indents + c.getName());
             if(c.isDirectory()){
+								System.out.println(indents + c.getName());
                 printTree(c.listFiles(), new_indent_count);
             }
         }

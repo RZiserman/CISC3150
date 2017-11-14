@@ -1,366 +1,115 @@
   CISC3150_HW
     .git
-      config
-      packed-refs
       logs
         refs
           heads
-            branchOne
-            master
           remotes
             origin
-              master
-              HEAD
-        HEAD
-      description
       info
-        exclude
       refs
         tags
         heads
-          branchOne
-          master
         remotes
           origin
-            master
-            HEAD
       branches
-      index
-      ORIG_HEAD
       objects
         62
-          66ce3718efee42e22215b7958fc1211b68a357
         07
-          46bd1eb95dabbbe3f808f58f142be6bf001221
         56
-          f743c353b540e4819c579067d8f741eb6e003c
         6f
-          2f74614acd315f208c1acef7ea5bd614dea873
         info
         5e
-          8e8448ce602a9c026da215e8d6ce1f9348d44a
         1f
-          9449ecbc5f2780c06678acd6c52c56f235dbcf
         pack
-          pack-e8a7e761407d4e9084d36183596d7f772e95b575.pack
-          pack-e8a7e761407d4e9084d36183596d7f772e95b575.idx
         b5
-          4885108dd32089df42dd339df84b3af43717f1
         0a
-          db3fa867da6eb43a99b9a28d009b56bc1eb577
         82
-          649ca3747f2d93565407dad06ac12ec5131105
       hooks
-        post-update.sample
-        commit-msg.sample
-        pre-commit.sample
-        pre-applypatch.sample
-        applypatch-msg.sample
-        prepare-commit-msg.sample
-        pre-push.sample
-        pre-rebase.sample
-        update.sample
-      FETCH_HEAD
-      HEAD
     Homework_1
       question1
-        Affirmation.txt
       question5
-        RealTriangleTest.class
-        RealTriangle.java
-        RealTriangleTest.java
-        RealTriangle.class
-        sampleOut5.txt
       question2
-        ReadRadii.class
-        ReadRadii.java
-        sampleOut2.txt
       question3
-        sampleOut3.txt
-        MonthNameTest.class
-        MonthNameTest.java
-        MonthName.java
-        MonthName.class
       question4
-        sampleOut4.txt
-        FileNumReader.java
-        nums2.txt
-        FileNumReader.txt
-        nums.txt
-        FileNumReader.class
       question6
-        sampleOut6.txt
-        CircleContainmentTest.java
-        CircleContainmentTest.class
-        CircleContainment.class
-        CircleContainment.java
     Homework_2
       Question3
-        SampleOut3.txt
-        PalindromeDriver.class
-        Palindrome.java
-        PalindromeDriver.java
-        Palindrome.class
       Question6
-        Question6Explanation
       Question1
-        sampleOut1.txt
-        NumberPyramid.java
-        NumberPyramid.class
-        NumberPyramidDriver.java
-        NumberPyramidDriver.class
       Question4
-        explanation
-        Question4.java
       Question5
-        ChangeDelimiter.java
-        ChangeDelimiterDriver.java
-        ChangeDelimiterDriver.class
-        SampleOut5.txt
-        ChangeDelimiter.class
       Question2
-        Month.java
-        MonthDriver.java
-        Month.class
-        Calendar.class
-        CalendarDriver.java
-        CalendarDriver.class
-        MonthDriver.class
-        Calendar.java
-        sampleOut2.txt
     CISC3150clone
       .git
-        config
-        packed-refs
         logs
           refs
             heads
-              master
             remotes
               origin
-                master
-                HEAD
-          HEAD
-        description
         info
-          exclude
         refs
           tags
           heads
-            master
           remotes
             origin
-              master
-              HEAD
         branches
-        index
-        ORIG_HEAD
         objects
+          a0
+          aa
+          33
           fd
-            ae9d87ef3674633735882f7ca0a394bcf58079
+          42
           e0
-            15003f7f241f6bfe596e989fe23c99a168bfe8
+          1e
           09
-            0372e44b0bc0bddec88065a4395ace16b6e639
           c1
-            bea1e232bb6c4481c244e948137e249779dad1
+          7b
           10
-            697b775032bd473e62b1ad18ffe2dcebb017fe
+          25
           info
           80
-            123c5106a75cd6976c81f703090acbb28d4499
           pack
-            pack-62f5f3bbd46de604daf364f442ea8846268c34f0.idx
-            pack-62f5f3bbd46de604daf364f442ea8846268c34f0.pack
           04
-            b455de3f5c42dd6572aca70ba29405b21a6d43
+          49
+          4b
+          b2
+          fb
           90
-            b1b10d45d8df8a3ce7c0e2311ce482cb630de9
           26
-            bcf99307128407a70eb0259442621eae33afe1
           a7
-            7a8f25837805e43a9db26d4ad0ad09301a39a4
+          94
           b5
-            84bde285a7ac756d6a9395d3e6305777632c1a
+          5d
           53
-            06145e4ca26f1f084279a89abfcfcab2fa3770
+          e2
         hooks
-          post-update.sample
-          commit-msg.sample
-          pre-commit.sample
-          pre-applypatch.sample
-          applypatch-msg.sample
-          prepare-commit-msg.sample
-          pre-push.sample
-          pre-rebase.sample
-          update.sample
-        FETCH_HEAD
-        HEAD
       Homework_1
         question1
-          Affirmation.txt
         question5
-          RealTriangleTest.class
-          RealTriangle.java
-          RealTriangleTest.java
-          RealTriangle.class
-          sampleOut5.txt
         question2
-          ReadRadii.class
-          ReadRadii.java
-          sampleOut2.txt
         question3
-          sampleOut3.txt
-          MonthNameTest.class
-          MonthNameTest.java
-          MonthName.java
-          MonthName.class
         question4
-          sampleOut4.txt
-          FileNumReader.java
-          nums2.txt
-          FileNumReader.txt
-          nums.txt
-          FileNumReader.class
         question6
-          sampleOut6.txt
-          CircleContainmentTest.java
-          CircleContainmentTest.class
-          CircleContainment.class
-          CircleContainment.java
       Homework_8
         src
-          FileTreeDriver.java
-          FileTree.java
-          sampleOut8.txt
-          FileTree.class
-          FileTreeDriver.class
-        Homework_8.iml
       Homework_2
         Question3
-          SampleOut3.txt
-          PalindromeDriver.class
-          Palindrome.java
-          PalindromeDriver.java
-          Palindrome.class
         Question6
-          Question6Explanation
         Question1
-          sampleOut1.txt
-          NumberPyramid.java
-          NumberPyramid.class
-          NumberPyramidDriver.java
-          NumberPyramidDriver.class
         Question4
-          explanation
-          Question4.java
         Question5
-          ChangeDelimiter.java
-          ChangeDelimiterDriver.java
-          ChangeDelimiterDriver.class
-          SampleOut5.txt
-          ChangeDelimiter.class
         Question2
-          Month.java
-          MonthDriver.java
-          Month.class
-          Calendar.class
-          CalendarDriver.java
-          CalendarDriver.class
-          MonthDriver.class
-          Calendar.java
-          sampleOut2.txt
       Homework_7
         src
-          SampleOutQ1HW7.txt
-          SerializableObjects.ser
-          PostfixEvaluator.java
-          SerializableClass.class
-          ReadFile.class
-          UserIsADumbassException.java
-          InfixToPostfixConverter.class
-          TooManyOperandsException.class
-          WriteToFile.java
-          IllegalOperationException.class
-          SerializableClass.java
-          WriteToFile.class
-          Operator.java
-          InfixToPostfixConverter.java
-          UserIsADumbassException.class
-          Operator.class
-          TooManyOperandsException.java
-          ConsoleCalculator.java
-          IllegalOperationException.java
-          LookAtMrAlgebraOverHereException.java
-          LookAtMrAlgebraOverHereException.class
-          PostfixEvaluator.class
-          ConsoleCalculator.class
-          ReadFile.java
-          SampleOut2HW7.txt
-        Homework_7.iml
       Homework_6
         ChildPackage
-          Child.class
-          Child.java
-          ChildDriver.java
-          ChildDriver.class
-        SampleOut6.txt
         ParentPackage
-          Parent.java
-          Parent.class
       Homework_3
-        MyStringDriver.java
-        MyStringDriver.class
-        MyString.class
-        sampleOut3.txt
-        MyString.java
       Homework_5
-        MyCircle.class
-        PointContainmentDriver.class
-        MySquare.java
-        PointContainmentDriver.java
-        PointContainment.java
-        MySquare.class
-        sampleOut5.txt
-        PointContainment.class
-        MyCircle.java
     Homework_7
       src
-        PostfixEvaluator.java
-        UserIsADumbassException.java
-        WriteToFile.java
-        SerializableClass.java
-        Operator.java
-        InfixToPostfixConverter.java
-        TooManyOperandsException.java
-        ConsoleCalculator.java
-        IllegalOperationException.java
-        LookAtMrAlgebraOverHereException.java
-        ReadFile.java
-      Homework_7.iml
     Homework_6
       ChildPackage
-        Child.class
-        Child.java
-        ChildDriver.java
-        ChildDriver.class
-      SampleOut6.txt
       ParentPackage
-        Parent.java
-        Parent.class
     Homework_3
-      MyStringDriver.java
-      MyStringDriver.class
-      MyString.class
-      sampleOut3.txt
-      MyString.java
     Homework_5
-      MyCircle.class
-      PointContainmentDriver.class
-      MySquare.java
-      PointContainmentDriver.java
-      PointContainment.java
-      MySquare.class
-      sampleOut5.txt
-      PointContainment.class
-      MyCircle.java
