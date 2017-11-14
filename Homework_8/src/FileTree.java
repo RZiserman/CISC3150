@@ -1,8 +1,6 @@
 //Author : Roman Ziserman
 import java.io.File;
 
-import java.nio.file.Files;
-
 /**The FileTree class contains one static method, printTree with a File array parameter, path_names, an integer paremeter, indent_count.
  *The parameter 'indent_count' is used to keep track of the indentations as recurse down the tree.  This method returns void.
  * It prints the file tree of each path in path_names with proper indents.
