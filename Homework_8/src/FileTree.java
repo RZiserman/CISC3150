@@ -3,7 +3,8 @@ import java.io.File;
 
 import java.nio.file.Files;
 
-/**The FileTree class contains one static method, printTree with a File array parameter, path_names, an integer paremeter, indent_count. The parameter 'indent_count' is used to keep track of the indentations as recurse down the tree.  This method returns void.
+/**The FileTree class contains one static method, printTree with a File array parameter, path_names, an integer paremeter, indent_count.
+ *The parameter 'indent_count' is used to keep track of the indentations as recurse down the tree.  This method returns void.
  * It prints the file tree of each path in path_names with proper indents.
  */
 
@@ -19,20 +20,25 @@ public class FileTree {
             return;
         }
         
-				//Add an indentation for each directory
-				String indents = new String();
+	//Add an indentation for each directory
+	String indents = new String();
         for(int i= 0; i <= indent_count; i++){
             indents = indents + "  ";
         }
         int new_indent_count = indent_count + 1;
         
+<<<<<<< HEAD
 				//We recurse for each directory.
 				for(File c : path_names){
+=======
+	//We recurse for each directory.
+	for(File c : path_names){
+            System.out.println(indents + c.getName());
+>>>>>>> 0f9fc48d3896d9aef69cc4733db265131b0330f8
             if(c.isDirectory()){
 								System.out.println(indents + c.getName());
                 printTree(c.listFiles(), new_indent_count);
             }
         }
     }
-
 }
