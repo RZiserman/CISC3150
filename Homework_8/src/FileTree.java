@@ -26,18 +26,12 @@ public class FileTree {
             indents = indents + "  ";
         }
         int new_indent_count = indent_count + 1;
-        
-<<<<<<< HEAD
-				//We recurse for each directory.
-				for(File c : path_names){
-=======
-	//We recurse for each directory.
+	
+	//Recurse for each directory.
 	for(File c : path_names){
-            System.out.println(indents + c.getName());
->>>>>>> 0f9fc48d3896d9aef69cc4733db265131b0330f8
-            if(c.isDirectory()){
-								System.out.println(indents + c.getName());
-                printTree(c.listFiles(), new_indent_count);
+ 		if(c.isDirectory()){
+			System.out.println(indents + c.getName());
+                	printTree(c.listFiles(), new_indent_count);
             }
         }
     }
