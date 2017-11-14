@@ -8,7 +8,7 @@ import java.io.File;
 
 public class FileTree {
 
-    /**The printTree function recursively prints the files and directories for the given File array argument. Each child
+    /**The printTree function recursively prints directories for the given File array argument. Each child
      * directory is indented once.
      * @param path_names
      */
