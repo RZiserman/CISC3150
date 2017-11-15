@@ -36,7 +36,8 @@ public class FileTree {
             if(c.isDirectory()){
                 writer.write(indents + c.getName());
                 writer.newLine();
-                printTree(c.listFiles(), new_indent_count, writer);
+                writer.flush();
+							  printTree(c.listFiles(), new_indent_count, writer);
             }
         }
     }
