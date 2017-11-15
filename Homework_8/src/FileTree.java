@@ -37,7 +37,7 @@ public class FileTree {
                 writer.write(indents + c.getName());
                 writer.newLine();
                 writer.flush();
-							  printTree(c.listFiles(), new_indent_count, writer);
+		printTree(c.listFiles(), new_indent_count, writer);
             }
         }
     }
