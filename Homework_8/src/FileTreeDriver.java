@@ -1,8 +1,13 @@
-import java.io.File;
+import java.io.*;
 
 public class FileTreeDriver {
     public static void main(String[] args) {
-       File[] fileArray = new File[]{new File("/home/rziserman/CISC3150_HW")};
-			 FileTree.printTree(fileArray, 0);
+       try{
+       		BufferedWriter dir_tree = new BufferedWriter(new FileWriter("dir_tree.txt"));
+	        File[] fileArray = new File[]{new File("/home/rziserman/CISC3150_HW")};
+       		FileTree.printTree(fileArray, 0, dir_tree);        
+       } catch (IOException e){
+		System.err.println("No such file");
+       }
     }
 }
