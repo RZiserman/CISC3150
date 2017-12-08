@@ -14,20 +14,18 @@ public class PlugItIn {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
         File plugin_dir = new File("C:\\Users\\Roman\\Desktop\\plugin");
 
-        //We will search for plugins in plugin_dir and store them in the plguin_list
-        ArrayList<Class> plugin_list = new ArrayList<Class>();
+        //We will search for plugins in plugin_dir and store them in the plugin_list
+        ArrayList<Class<?>> plugin_list = new ArrayList<Class<?>>();
 
         ClassLoader plugin_loader = new PluginLoader();
-        Class new_plugin;
 
         //The user must choose a plugin
         Scanner choose_plugin = new Scanner(System.in);
         int user_choice;
-        String chosen_plugin_name;
 
         //list the files in the plugin directory
         //search for files which start with plugin
-        //put them into a File array
+        //put them into a Class array
         for(String c: plugin_dir.list()){
             if(c.contains("Plugin")){
                 plugin_list.add(plugin_loader.loadClass(FileNameUtilities.removeExtension(c)));
