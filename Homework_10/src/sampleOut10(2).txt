@@ -1,0 +1,8 @@
+1. MyPlugin1
+2. MyPlugin2
+Please choose a plugin:
+1
+MyPlugin1 says hello
+MyPlugin1 says bye
+
+Process finished with exit code 0
