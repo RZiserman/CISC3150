@@ -11,11 +11,11 @@ import java.util.Scanner;
  */
 public class PlugItIn {
 
-    public static void main(String[] args) throws IllegalAccessException, InstantiationException {
+    public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
         File plugin_dir = new File("C:\\Users\\Roman\\Desktop\\plugin");
 
         //We will search for plugins in plugin_dir and store them in the plguin_list
-        ArrayList<File> plugin_list = new ArrayList<File>();
+        ArrayList<Class> plugin_list = new ArrayList<Class>();
 
         ClassLoader plugin_loader = new PluginLoader();
         Class new_plugin;
@@ -30,13 +30,13 @@ public class PlugItIn {
         //put them into a File array
         for(String c: plugin_dir.list()){
             if(c.contains("Plugin")){
-                plugin_list.add(new File(c));
+                plugin_list.add(plugin_loader.loadClass(FileNameUtilities.removeExtension(c)));
             }
         }
 
         //ask the user which plugin they want to load
         int i = 1; //enumerate the list so the user can choose a number
-        for(File c: plugin_list){
+        for(Class c: plugin_list){
             System.out.println(i +". "+ c.getName());
             i++;
         }
@@ -45,14 +45,8 @@ public class PlugItIn {
         user_choice = choose_plugin.nextInt();
 
         //load and execute the plugin
-        try {
-            chosen_plugin_name = FileNameUtilites.removeExtension(plugin_list.get(user_choice - 1).getName());
-            new_plugin = plugin_loader.loadClass(chosen_plugin_name);
-            new_plugin.newInstance();
-        } catch (ClassNotFoundException e){
-            System.out.println("Class does not exist");
-            e.printStackTrace();
-        }
+        plugin_list.get(user_choice - 1).newInstance();
+
         choose_plugin.close();
-    } //close main()1
+    } //close main()
 }
