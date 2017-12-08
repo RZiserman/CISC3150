@@ -34,7 +34,7 @@ public class PlugItIn {
 
         //ask the user which plugin they want to load
         int i = 1; //enumerate the list so the user can choose a number
-        for(Class c: plugin_list){
+        for(Class<?> c: plugin_list){
             System.out.println(i +". "+ c.getName());
             i++;
         }
