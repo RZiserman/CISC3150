@@ -27,7 +27,7 @@ public class PlugItIn {
 
         //list the files in the plugin directory
         //search for files which start with plugin
-        //put them into a File array
+        //put them into a Class array
         for(String c: plugin_dir.list()){
             if(c.contains("Plugin")){
                 plugin_list.add(plugin_loader.loadClass(FileNameUtilities.removeExtension(c)));
